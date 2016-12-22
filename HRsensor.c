@@ -7,7 +7,7 @@ Servo myservo1,myservo2;
 int pos = 0; 
 int last_state,now_state;
 int time_count;
-int i;
+int i=0;
 unsigned char buff[8]={0x5A,0xA5,01,00,00,00,00,01};
 
 void state_detect()
